@@ -1,9 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(227, 170, 190);
+}
+
+.alo{
+    width: 80%;
+    margin: 0 auto;
 }
 
 h1{
     color: brown;
     text-decoration: underline;
-
+    text-align: center;
 }
