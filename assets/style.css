@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap");
- :root{
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+:root{
     /* Colores */
     --color-bg: rgba(34, 33, 46);
     --color-negro: rgb(17, 16, 16);
-    --color-1: rgb(118, 19, 19);
+    --color-1: rgb(128, 0, 0);
     --color-2: rgb(72, 5, 8);
     --color-3: rgb(155, 17, 24);
     --color-blanco:rgb(255, 251, 251);
@@ -58,4 +60,17 @@ body{
     background-color: var(--color-bg);
     color: var(--color-blanco);
     font-family: var(--body-font);
+}
+.header{
+  height: 6rem;
+  width: 100%;
+  background-color: var(--color-1);
+  display: flex;
+}
+.titulo{
+  font-size: 3rem;
+  justify-content: flex-start;
+  align-items: center;
+  font-family:'Audiowide', cursive;
+  height: 100%;
 }
