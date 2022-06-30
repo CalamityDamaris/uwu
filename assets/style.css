@@ -66,11 +66,10 @@ body{
   width: 100%;
   background-color: var(--color-1);
   display: flex;
-}
-.titulo{
-  font-size: 3rem;
   justify-content: flex-start;
   align-items: center;
+}
+.header__titulo{
+  font-size: 3rem;
   font-family:'Audiowide', cursive;
-  height: 100%;
 }
